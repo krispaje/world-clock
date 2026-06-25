@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.1/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>World clock</title>
   </head>
@@ -16,19 +18,19 @@
         <option value="sydney">Sydney 🇦🇺</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="londonCity">
         <div class="left-content">
           <h2>London 🇬🇧</h2>
-          <div class="date">June 15th 2026</div>
+          <div class="date"></div>
         </div>
-        <div class="time">6:56:10 <spanc class="AMPM">PM</span></div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="losAngelesCity">
         <div class="left-content">
           <h2>Los Angeles 🇺🇸</h2>
-          <div class="date">June 15th 2026</div>
+          <div class="date"></div>
         </div>
-        <div class="time">10:56:10 <span class="AMPM">AM</span></div>
+        <div class="time"></div>
       </div>
     </div>
 
